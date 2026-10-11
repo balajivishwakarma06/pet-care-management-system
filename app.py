@@ -23,7 +23,7 @@ pets = [
 
 @app.route("/")
 def home():
-    return "Pet Care Management System is running"
+    return "Welcome to the Pet Care Management System!"
 
 
 @app.route("/pets")
